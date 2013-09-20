@@ -23,4 +23,4 @@ D1 is a flyback diode which protects Q1.  I'm not sure it is strictly necessary,
 
 LED2 and it's 1k resistor could also hang off the same pin which drives Q1, if you need to free up another pin.
 
-Nearly any potentiometer should work.
+The R2 potentiometer controls the duty cycle.  Nearly any potentiometer should work.
