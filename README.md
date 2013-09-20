@@ -10,7 +10,7 @@ Circuit Schematic
 
 ![power supply](http://i.imgur.com/gUMD7M1.png "")
 
-The power supply is the typical 7805 linear regulator setup.  Surprisingly, 0.1uf on the output results in stable operation.  The 220 Ohm resistor and LED ensure the minimum 5mA load is satisfied.
+The power supply is the typical 7805 linear regulator setup.  I used a 9V DC power supply for VCC, but 12V will also work.  Surprisingly, 0.1uf on the output is all that is necessary for stable operation.  The 220 Ohm resistor and LED ensure the minimum 5mA load is satisfied.
 
 
 ![stirrer](http://i.imgur.com/Sf7x89c.png "")
