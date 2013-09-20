@@ -3403,7 +3403,7 @@ Based on the following sources:&lt;p&gt;
 <part name="Q1" library="transistor-npn" deviceset="2N3904" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="1k"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="220"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="1k"/>
 <part name="LED2" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 </parts>
