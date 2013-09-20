@@ -7,6 +7,19 @@ An Adruino sketch to control a PC Fan which has been modified to act as a DIY [m
 ![stirrer](http://i.imgur.com/y3wdtbe.jpg "")
 
 
+Arduino Sketch
+--------------
+
+
+![sketch](http://i.imgur.com/x4oJcz8.png "")
+
+This sketch controls the speed of the PC fan using extremely low frequency PWM (3 Hz).  A potentiometer is used to control the duty cycle of the PWM.
+
+I experimented with lots of different combinations of frequency and duty cycle, and 3 Hz with a duty cycle ranging from 22% to 66% seemed to work best.  I had initially spent a bunch of time trying to implement feedback control using the tachometer pin of the PC fan, but open loop control ended up being adequate and more reliable.
+
+Note: this sketch uses the [Oversampler library](https://github.com/cellularmitosis/Oversampler).
+
+
 Circuit Schematic
 -----------------
 
