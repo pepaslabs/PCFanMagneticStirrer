@@ -13,7 +13,7 @@ Arduino Sketch
 
 ![sketch](http://i.imgur.com/x4oJcz8.png "")
 
-This sketch controls the speed of the PC fan using extremely low frequency PWM (3 Hz).  A potentiometer is used to control the duty cycle of the PWM.
+This sketch controls the speed of the PC fan using extremely low frequency (3 Hz) [PWM](http://en.wikipedia.org/wiki/Pulse-width_modulation).  A potentiometer is used to control the duty cycle of the PWM.
 
 I experimented with lots of different combinations of frequency and duty cycle, and 3 Hz with a duty cycle ranging from 22% to 66% seemed to work best.  I had initially spent a bunch of time trying to implement feedback control using the tachometer pin of the PC fan, but open loop control ended up being adequate and more reliable.
 
