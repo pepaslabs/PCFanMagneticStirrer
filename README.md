@@ -17,7 +17,7 @@ The power supply is the typical 7805 linear regulator setup.  Surprisingly, 0.1u
 
 The main circuit uses an NPN transistor in common-emitter configuration to cycle the fan on and off.
 
-Nearly any TO-92 NPN transistor or N-channel MOSFET should work as Q1.  I tested a 2N3904 and a 2N7000, both of which worked.
+Nearly any TO-92 NPN transistor or N-channel MOSFET rated for 100mA should work for Q1.  I tested a 2N3904 and a 2N7000, both of which worked.
 
 D1 is a flyback diode which protects Q1.  I'm not sure it is strictly necessary, but it is good practice.  I used a 1N4148, but nearly any diode should work.
 
