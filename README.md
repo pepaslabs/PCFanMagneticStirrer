@@ -1,7 +1,7 @@
 PCFanMagneticStirrer
 ====================
 
-An Adruino sketch to control a PC fan which has been modified to act as a DIY [magnetic stirrer](http://en.wikipedia.org/wiki/Magnetic_stirrer).
+An Arduino sketch to control a PC fan which has been modified to act as a DIY [magnetic stirrer](http://en.wikipedia.org/wiki/Magnetic_stirrer).
 
 
 ![stirrer](http://i.imgur.com/y3wdtbe.jpg "")
