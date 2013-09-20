@@ -15,7 +15,7 @@ The power supply is the typical [7805](https://www.sparkfun.com/products/107) li
 
 ![stirrer](http://i.imgur.com/Sf7x89c.png "")
 
-The main circuit uses an NPN transistor in [common-emitter](http://en.wikipedia.org/wiki/Common_emitter) configuration to cycle the fan on and off.  During breadboarding I used a [Boarduino](http://learn.adafruit.com/boarduino-kits), and for the final circuit I used an [ATtiny85](https://www.sparkfun.com/products/9378).  The sketch size is small enough (~2.3kB) that an ATtiny45 would also work.
+The main circuit uses an NPN transistor in [common-emitter](http://en.wikipedia.org/wiki/Common_emitter) configuration to cycle the fan on and off.  During breadboarding I used a [Boarduino](http://learn.adafruit.com/boarduino-kits), and for the final circuit I used an [ATtiny85](https://www.sparkfun.com/products/9378) using the 'tiny core from [high-low tech](http://hlt.media.mit.edu/?p=1695).  The sketch size is small enough (~2.3kB) that an ATtiny45 would also work.
 
 Nearly any [TO-92](http://en.wikipedia.org/wiki/TO-92) NPN transistor or N-channel MOSFET rated for 100mA should work for Q1.  I tested a [2N3904](https://www.sparkfun.com/products/521) and a [2N7000](http://en.wikipedia.org/wiki/2N7000), both of which worked.
 
