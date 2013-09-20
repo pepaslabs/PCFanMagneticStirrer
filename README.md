@@ -13,7 +13,7 @@ Circuit Schematic
 
 ![power supply](http://i.imgur.com/gUMD7M1.png "")
 
-The power supply is the typical [7805](https://www.sparkfun.com/products/107) linear regulator setup.  I used a 9V DC power supply for VCC, but 12V will also work.  Surprisingly, 1uf on the input and [0.1uf](https://www.sparkfun.com/products/8375) on the output is all that is necessary for stable operation.  The 220 Ohm resistor and LED ensure the minimum 5mA load is satisfied.
+The power supply is the typical [7805](https://www.sparkfun.com/products/107) linear regulator setup.  I used a 9V DC power supply for VCC, but 12V will also work.  Surprisingly, 1uf on the input and [0.1uf](https://www.sparkfun.com/products/8375) on the output is all that is necessary for stable operation.  The 220 Ohm resistor and LED ensure the 7805's minimum load is always satisfied, and also serve as a "power on" indicator.
 
 
 ![stirrer](http://i.imgur.com/Sf7x89c.png "")
