@@ -1,10 +1,13 @@
 PCFanMagneticStirrer
 ====================
 
-An Adruino sketch to control a PC Fan which has been modified to act as a DIY [magnetic stirrer](http://en.wikipedia.org/wiki/Magnetic_stirrer).  This can be used to create a stirred ice bath, which you can use to calibrate a thermometer, thermistor, or thermocouple circuit.
+An Adruino sketch to control a PC fan which has been modified to act as a DIY [magnetic stirrer](http://en.wikipedia.org/wiki/Magnetic_stirrer).
 
 
 ![stirrer](http://i.imgur.com/y3wdtbe.jpg "")
+
+
+This can be used to create a stirred ice bath, which you can use to calibrate a thermometer, thermistor, or thermocouple circuit.
 
 
 Arduino Sketch
