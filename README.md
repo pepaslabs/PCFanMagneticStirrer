@@ -1,7 +1,10 @@
 PCFanMagneticStirrer
 ====================
 
-An Adruino sketch to control a PC Fan which has been modified to act as a DIY magnetic stirrer.
+An Adruino sketch to control a PC Fan which has been modified to act as a DIY [magnetic stirrer](http://en.wikipedia.org/wiki/Magnetic_stirrer).
+
+
+![stirrer](http://i.imgur.com/y3wdtbe.jpg "")
 
 
 Circuit Schematic
@@ -24,3 +27,28 @@ D1 is a flyback diode which protects Q1.  I'm not sure it is strictly necessary,
 LED2 is a status indicator which shows when Q1 is switched on.  LED2 and it's 1k resistor could also hang off the same pin which drives Q1, if you need to free up another pin.
 
 The R2 potentiometer controls the duty cycle.  I used a 100K linear potentiometer, but 1k, 10k, etc will work just as well.
+
+
+![stirrer](http://i.imgur.com/CapEhXM.jpg "")
+
+
+Construction
+------------
+
+
+You'll need the following items to assemble as stirrer:
+
+* a PC fan
+* a neodymium magnet, salvaged from a dead hard drive
+* cyanoacrylate glue ("Super Glue")
+* a CDROM
+* hot glue
+* a [magnetic stirbar](http://search.ebay.com/magnetic-stirbar)
+
+1. Use a pair of [flush cutters](http://www.adafruit.com/products/152) to remove all the blades from the fan.
+2. Glue the magnet to the fan hub.  Try to keep the magnet's center of mass centered on the hub (this is a bit tricky, as it is curved).
+3. Cut a CDROM in half and hot glue the halves to the fan's frame.
+
+![stirrer](http://i.imgur.com/MdIMcJc.jpg "")
+
+![stirrer](http://i.imgur.com/K7bxyD6.jpg "")
